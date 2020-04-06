@@ -11,3 +11,6 @@ vue.js + mui
 2.  cnpm i
 3.  npm run dev
 
+#### 提交过程
+1. 直接使用vscode进行提交
+
