@@ -14,3 +14,12 @@ vue.js + mui
 #### 提交过程
 1. 直接使用vscode进行提交
 
+#### 调试过程
+1. 手机与电脑处在同一局域网下
+2. 获取电脑的无线网ip地址
+ + cmd + 'ipconfig'
+ + 无线局域网适配器 WLAN: => IPv4 地址
+ + 在package.json => scripts => dev 配置 --host ip地址
+ + 重新运行项目
+ + 使用total control软件 => 显示手机界面到电脑端
+ + 直接在手机上输入项目地址即可
